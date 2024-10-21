@@ -1,0 +1,7 @@
+{
+  "package_name": "window_msg",
+  "non_idl_tuples": [
+    "/home/santi/imav_ws/src/window_msg:msg/Num.msg",
+    "/home/santi/imav_ws/src/window_msg:msg/Sphere.msg"
+  ]
+}

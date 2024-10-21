@@ -1,0 +1,250 @@
+[0.009s] Invoking command in '/home/santi/imav_ws/src/window_msg/build/window_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/santi/imav_ws/install/imav24:/opt/ros/humble /usr/bin/cmake /home/santi/imav_ws/src/window_msg -DCMAKE_INSTALL_PREFIX=/home/santi/imav_ws/src/window_msg/install/window_msg
+[0.019s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.104s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.122s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.123s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.128s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.133s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.142s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.164s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.358s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.645s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.758s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.774s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.775s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.795s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.795s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.795s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.795s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.811s] -- Found PythonExtra: .so  
+[0.849s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.863s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.864s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/santi/imav_ws/src/window_msg/build/window_msg/rosidl_generator_c>;$<BUILD_INTERFACE:/home/santi/imav_ws/src/window_msg/build/window_msg/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/santi/imav_ws/src/window_msg/build/window_msg/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/santi/imav_ws/src/window_msg/build/window_msg/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/santi/imav_ws/src/window_msg/build/window_msg/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/santi/imav_ws/src/window_msg/build/window_msg/rosidl_typesupport_introspection_cpp>;/home/santi/imav_ws/src/window_msg/build/window_msg/rosidl_generator_c;/home/santi/imav_ws/src/window_msg/build/window_msg/rosidl_generator_py
+[0.864s] -- Configured cppcheck exclude dirs and/or files: 
+[0.865s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.867s] -- Added test 'lint_cmake' to check CMake code style
+[0.869s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.877s] -- Added test 'uncrustify' to check C / C++ code style
+[0.877s] -- Configured uncrustify additional arguments: 
+[0.878s] -- Added test 'xmllint' to check XML markup files
+[0.880s] -- Configuring done
+[0.906s] -- Generating done
+[0.908s] -- Build files have been written to: /home/santi/imav_ws/src/window_msg/build/window_msg
+[0.914s] Invoked command in '/home/santi/imav_ws/src/window_msg/build/window_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/santi/imav_ws/install/imav24:/opt/ros/humble /usr/bin/cmake /home/santi/imav_ws/src/window_msg -DCMAKE_INSTALL_PREFIX=/home/santi/imav_ws/src/window_msg/install/window_msg
+[0.915s] Invoking command in '/home/santi/imav_ws/src/window_msg/build/window_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/santi/imav_ws/install/imav24:/opt/ros/humble /usr/bin/cmake --build /home/santi/imav_ws/src/window_msg/build/window_msg -- -j16 -l16
+[0.949s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.956s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.964s] [  5%] Built target ament_cmake_python_copy_window_msg
+[1.142s] [  5%] Built target window_msg__cpp
+[1.151s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.151s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.151s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.156s] [ 17%] [32mBuilding C object CMakeFiles/window_msg__rosidl_generator_c.dir/rosidl_generator_c/window_msg/msg/detail/num__functions.c.o[0m
+[1.157s] [ 17%] [32mBuilding C object CMakeFiles/window_msg__rosidl_generator_c.dir/rosidl_generator_c/window_msg/msg/detail/sphere__functions.c.o[0m
+[1.166s] running egg_info
+[1.166s] creating window_msg.egg-info
+[1.167s] writing window_msg.egg-info/PKG-INFO
+[1.167s] writing dependency_links to window_msg.egg-info/dependency_links.txt
+[1.167s] writing top-level names to window_msg.egg-info/top_level.txt
+[1.168s] writing manifest file 'window_msg.egg-info/SOURCES.txt'
+[1.169s] reading manifest file 'window_msg.egg-info/SOURCES.txt'
+[1.169s] writing manifest file 'window_msg.egg-info/SOURCES.txt'
+[1.195s] [ 17%] Built target ament_cmake_python_build_window_msg_egg
+[1.197s] [ 20%] [32m[1mLinking C shared library libwindow_msg__rosidl_generator_c.so[0m
+[1.235s] [ 20%] Built target window_msg__rosidl_generator_c
+[1.243s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.243s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.244s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.322s] [ 33%] [32mBuilding CXX object CMakeFiles/window_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/window_msg/msg/num__type_support.cpp.o[0m
+[1.322s] [ 33%] [32mBuilding CXX object CMakeFiles/window_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/window_msg/msg/sphere__type_support.cpp.o[0m
+[1.333s] [ 35%] [32mBuilding CXX object CMakeFiles/window_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/window_msg/msg/detail/num__type_support.cpp.o[0m
+[1.334s] [ 38%] [32mBuilding CXX object CMakeFiles/window_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/window_msg/msg/detail/sphere__type_support.cpp.o[0m
+[1.344s] [ 41%] [32mBuilding CXX object CMakeFiles/window_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/window_msg/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[1.346s] [ 43%] [32mBuilding CXX object CMakeFiles/window_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/window_msg/msg/detail/dds_fastrtps/sphere__type_support.cpp.o[0m
+[1.421s] [ 46%] [32mBuilding CXX object CMakeFiles/window_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/window_msg/msg/sphere__type_support.cpp.o[0m
+[1.422s] [ 48%] [32mBuilding CXX object CMakeFiles/window_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/window_msg/msg/num__type_support.cpp.o[0m
+[1.443s] [ 51%] [32mBuilding C object CMakeFiles/window_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/window_msg/msg/detail/num__type_support.c.o[0m
+[1.443s] [ 53%] [32mBuilding C object CMakeFiles/window_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/window_msg/msg/detail/sphere__type_support.c.o[0m
+[1.452s] [ 56%] [32m[1mLinking CXX shared library libwindow_msg__rosidl_typesupport_c.so[0m
+[1.456s] [ 61%] [32mBuilding CXX object CMakeFiles/window_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/window_msg/msg/detail/sphere__type_support_c.cpp.o[0m
+[1.456s] [ 61%] [32mBuilding CXX object CMakeFiles/window_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/window_msg/msg/detail/num__type_support_c.cpp.o[0m
+[1.478s] [ 64%] [32m[1mLinking C shared library libwindow_msg__rosidl_typesupport_introspection_c.so[0m
+[1.500s] [ 64%] Built target window_msg__rosidl_typesupport_c
+[1.514s] [ 64%] Built target window_msg__rosidl_typesupport_introspection_c
+[1.559s] [ 66%] [32m[1mLinking CXX shared library libwindow_msg__rosidl_typesupport_cpp.so[0m
+[1.598s] [ 66%] Built target window_msg__rosidl_typesupport_cpp
+[1.622s] [ 69%] [32m[1mLinking CXX shared library libwindow_msg__rosidl_typesupport_introspection_cpp.so[0m
+[1.680s] [ 69%] Built target window_msg__rosidl_typesupport_introspection_cpp
+[1.692s] [ 71%] [32m[1mLinking CXX shared library libwindow_msg__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.725s] [ 74%] [32m[1mLinking CXX shared library libwindow_msg__rosidl_typesupport_fastrtps_c.so[0m
+[1.755s] [ 74%] Built target window_msg__rosidl_typesupport_fastrtps_cpp
+[1.789s] [ 74%] Built target window_msg__rosidl_typesupport_fastrtps_c
+[1.807s] [ 74%] Built target window_msg
+[1.824s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.052s] [ 76%] Built target window_msg__py
+[2.070s] [ 79%] [32mBuilding C object CMakeFiles/window_msg__rosidl_generator_py.dir/rosidl_generator_py/window_msg/msg/_num_s.c.o[0m
+[2.070s] [ 82%] [32mBuilding C object CMakeFiles/window_msg__rosidl_generator_py.dir/rosidl_generator_py/window_msg/msg/_sphere_s.c.o[0m
+[2.140s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/window_msg/libwindow_msg__rosidl_generator_py.so[0m
+[2.180s] [ 84%] Built target window_msg__rosidl_generator_py
+[2.196s] [ 92%] [32mBuilding C object CMakeFiles/window_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/window_msg/_window_msg_s.ep.rosidl_typesupport_c.c.o[0m
+[2.196s] [ 92%] [32mBuilding C object CMakeFiles/window_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/window_msg/_window_msg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.196s] [ 92%] [32mBuilding C object CMakeFiles/window_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/window_msg/_window_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.271s] [100%] [32m[1mLinking C shared library rosidl_generator_py/window_msg/window_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.272s] [100%] [32m[1mLinking C shared library rosidl_generator_py/window_msg/window_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.272s] [100%] [32m[1mLinking C shared library rosidl_generator_py/window_msg/window_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.303s] [100%] Built target window_msg__rosidl_typesupport_introspection_c__pyext
+[2.303s] [100%] Built target window_msg__rosidl_typesupport_c__pyext
+[2.303s] [100%] Built target window_msg__rosidl_typesupport_fastrtps_c__pyext
+[2.313s] Invoked command in '/home/santi/imav_ws/src/window_msg/build/window_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/santi/imav_ws/install/imav24:/opt/ros/humble /usr/bin/cmake --build /home/santi/imav_ws/src/window_msg/build/window_msg -- -j16 -l16
+[2.410s] Invoking command in '/home/santi/imav_ws/src/window_msg/build/window_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/santi/imav_ws/install/imav24:/opt/ros/humble /usr/bin/cmake --install /home/santi/imav_ws/src/window_msg/build/window_msg
+[2.415s] -- Install configuration: ""
+[2.415s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/ament_index/resource_index/rosidl_interfaces/window_msg
+[2.416s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg
+[2.416s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg
+[2.416s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg/detail
+[2.416s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg/detail/sphere__type_support.h
+[2.416s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg/detail/num__functions.h
+[2.416s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg/detail/num__functions.c
+[2.416s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg/detail/sphere__struct.h
+[2.416s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg/detail/sphere__functions.h
+[2.417s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg/detail/num__struct.h
+[2.417s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg/detail/num__type_support.h
+[2.417s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg/detail/sphere__functions.c
+[2.417s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg/rosidl_generator_c__visibility_control.h
+[2.417s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg/sphere.h
+[2.417s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg/num.h
+[2.417s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/window_msg/environment/library_path.sh
+[2.417s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/window_msg/environment/library_path.dsv
+[2.417s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/lib/libwindow_msg__rosidl_generator_c.so
+[2.417s] -- Set runtime path of "/home/santi/imav_ws/src/window_msg/install/window_msg/lib/libwindow_msg__rosidl_generator_c.so" to ""
+[2.417s] -- Up-to-date: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg
+[2.417s] -- Up-to-date: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg
+[2.418s] -- Up-to-date: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg/detail
+[2.418s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+[2.418s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[2.418s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.418s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/lib/libwindow_msg__rosidl_typesupport_fastrtps_c.so
+[2.418s] -- Set runtime path of "/home/santi/imav_ws/src/window_msg/install/window_msg/lib/libwindow_msg__rosidl_typesupport_fastrtps_c.so" to ""
+[2.418s] -- Up-to-date: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg
+[2.418s] -- Up-to-date: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg
+[2.418s] -- Up-to-date: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg/detail
+[2.418s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg/detail/num__builder.hpp
+[2.418s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg/detail/sphere__traits.hpp
+[2.418s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg/detail/num__traits.hpp
+[2.419s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg/detail/sphere__struct.hpp
+[2.419s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg/detail/num__struct.hpp
+[2.419s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg/detail/sphere__builder.hpp
+[2.419s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg/num.hpp
+[2.419s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg/sphere.hpp
+[2.419s] -- Up-to-date: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg
+[2.419s] -- Up-to-date: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg
+[2.419s] -- Up-to-date: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg/detail
+[2.419s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp
+[2.419s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[2.419s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg/detail/dds_fastrtps
+[2.419s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.420s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/lib/libwindow_msg__rosidl_typesupport_fastrtps_cpp.so
+[2.420s] -- Set runtime path of "/home/santi/imav_ws/src/window_msg/install/window_msg/lib/libwindow_msg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.420s] -- Up-to-date: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg
+[2.420s] -- Up-to-date: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg
+[2.420s] -- Up-to-date: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg/detail
+[2.420s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg/detail/num__rosidl_typesupport_introspection_c.h
+[2.420s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg/detail/sphere__type_support.c
+[2.420s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg/detail/num__type_support.c
+[2.420s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg/detail/sphere__rosidl_typesupport_introspection_c.h
+[2.420s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.420s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/lib/libwindow_msg__rosidl_typesupport_introspection_c.so
+[2.421s] -- Set runtime path of "/home/santi/imav_ws/src/window_msg/install/window_msg/lib/libwindow_msg__rosidl_typesupport_introspection_c.so" to ""
+[2.421s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/lib/libwindow_msg__rosidl_typesupport_c.so
+[2.421s] -- Set runtime path of "/home/santi/imav_ws/src/window_msg/install/window_msg/lib/libwindow_msg__rosidl_typesupport_c.so" to ""
+[2.421s] -- Up-to-date: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg
+[2.421s] -- Up-to-date: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg
+[2.421s] -- Up-to-date: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg/detail
+[2.421s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp
+[2.421s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[2.421s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg/detail/num__type_support.cpp
+[2.421s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/include/window_msg/window_msg/msg/detail/sphere__type_support.cpp
+[2.422s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/lib/libwindow_msg__rosidl_typesupport_introspection_cpp.so
+[2.422s] -- Set runtime path of "/home/santi/imav_ws/src/window_msg/install/window_msg/lib/libwindow_msg__rosidl_typesupport_introspection_cpp.so" to ""
+[2.422s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/lib/libwindow_msg__rosidl_typesupport_cpp.so
+[2.422s] -- Set runtime path of "/home/santi/imav_ws/src/window_msg/install/window_msg/lib/libwindow_msg__rosidl_typesupport_cpp.so" to ""
+[2.422s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/window_msg/environment/pythonpath.sh
+[2.422s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/window_msg/environment/pythonpath.dsv
+[2.422s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/local/lib/python3.10/dist-packages/window_msg-0.0.0-py3.10.egg-info
+[2.423s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/local/lib/python3.10/dist-packages/window_msg-0.0.0-py3.10.egg-info/top_level.txt
+[2.423s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/local/lib/python3.10/dist-packages/window_msg-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.423s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/local/lib/python3.10/dist-packages/window_msg-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.423s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/local/lib/python3.10/dist-packages/window_msg-0.0.0-py3.10.egg-info/PKG-INFO
+[2.423s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/local/lib/python3.10/dist-packages/window_msg
+[2.423s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/local/lib/python3.10/dist-packages/window_msg/msg
+[2.423s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/local/lib/python3.10/dist-packages/window_msg/msg/_num_s.c
+[2.423s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/local/lib/python3.10/dist-packages/window_msg/msg/_num.py
+[2.423s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/local/lib/python3.10/dist-packages/window_msg/msg/_sphere.py
+[2.423s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/local/lib/python3.10/dist-packages/window_msg/msg/_sphere_s.c
+[2.424s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/local/lib/python3.10/dist-packages/window_msg/msg/__init__.py
+[2.424s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/local/lib/python3.10/dist-packages/window_msg/window_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.424s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/local/lib/python3.10/dist-packages/window_msg/window_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.424s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/local/lib/python3.10/dist-packages/window_msg/_window_msg_s.ep.rosidl_typesupport_c.c
+[2.424s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/local/lib/python3.10/dist-packages/window_msg/_window_msg_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.424s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/local/lib/python3.10/dist-packages/window_msg/libwindow_msg__rosidl_generator_py.so
+[2.424s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/local/lib/python3.10/dist-packages/window_msg/__init__.py
+[2.424s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/local/lib/python3.10/dist-packages/window_msg/_window_msg_s.ep.rosidl_typesupport_introspection_c.c
+[2.424s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/local/lib/python3.10/dist-packages/window_msg/window_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.449s] Listing '/home/santi/imav_ws/src/window_msg/install/window_msg/local/lib/python3.10/dist-packages/window_msg'...
+[2.449s] Compiling '/home/santi/imav_ws/src/window_msg/install/window_msg/local/lib/python3.10/dist-packages/window_msg/__init__.py'...
+[2.449s] Listing '/home/santi/imav_ws/src/window_msg/install/window_msg/local/lib/python3.10/dist-packages/window_msg/msg'...
+[2.449s] Compiling '/home/santi/imav_ws/src/window_msg/install/window_msg/local/lib/python3.10/dist-packages/window_msg/msg/__init__.py'...
+[2.449s] Compiling '/home/santi/imav_ws/src/window_msg/install/window_msg/local/lib/python3.10/dist-packages/window_msg/msg/_num.py'...
+[2.449s] Compiling '/home/santi/imav_ws/src/window_msg/install/window_msg/local/lib/python3.10/dist-packages/window_msg/msg/_sphere.py'...
+[2.452s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/local/lib/python3.10/dist-packages/window_msg/window_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.452s] -- Set runtime path of "/home/santi/imav_ws/src/window_msg/install/window_msg/local/lib/python3.10/dist-packages/window_msg/window_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.453s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/local/lib/python3.10/dist-packages/window_msg/window_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.453s] -- Set runtime path of "/home/santi/imav_ws/src/window_msg/install/window_msg/local/lib/python3.10/dist-packages/window_msg/window_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.454s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/local/lib/python3.10/dist-packages/window_msg/window_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.454s] -- Set runtime path of "/home/santi/imav_ws/src/window_msg/install/window_msg/local/lib/python3.10/dist-packages/window_msg/window_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.454s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/lib/libwindow_msg__rosidl_generator_py.so
+[2.454s] -- Set runtime path of "/home/santi/imav_ws/src/window_msg/install/window_msg/lib/libwindow_msg__rosidl_generator_py.so" to ""
+[2.454s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/window_msg/msg/Num.idl
+[2.454s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/window_msg/msg/Sphere.idl
+[2.454s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/window_msg/msg/Num.msg
+[2.454s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/window_msg/msg/Sphere.msg
+[2.454s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/ament_index/resource_index/package_run_dependencies/window_msg
+[2.454s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/ament_index/resource_index/parent_prefix_path/window_msg
+[2.455s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/window_msg/environment/ament_prefix_path.sh
+[2.455s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/window_msg/environment/ament_prefix_path.dsv
+[2.455s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/window_msg/environment/path.sh
+[2.455s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/window_msg/environment/path.dsv
+[2.455s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/window_msg/local_setup.bash
+[2.455s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/window_msg/local_setup.sh
+[2.455s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/window_msg/local_setup.zsh
+[2.455s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/window_msg/local_setup.dsv
+[2.456s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/window_msg/package.dsv
+[2.456s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/ament_index/resource_index/packages/window_msg
+[2.456s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/window_msg/cmake/export_window_msg__rosidl_generator_cExport.cmake
+[2.456s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/window_msg/cmake/export_window_msg__rosidl_generator_cExport-noconfig.cmake
+[2.456s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/window_msg/cmake/export_window_msg__rosidl_typesupport_fastrtps_cExport.cmake
+[2.456s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/window_msg/cmake/export_window_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.456s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/window_msg/cmake/export_window_msg__rosidl_generator_cppExport.cmake
+[2.456s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/window_msg/cmake/export_window_msg__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.457s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/window_msg/cmake/export_window_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.457s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/window_msg/cmake/window_msg__rosidl_typesupport_introspection_cExport.cmake
+[2.457s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/window_msg/cmake/window_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.457s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/window_msg/cmake/window_msg__rosidl_typesupport_cExport.cmake
+[2.457s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/window_msg/cmake/window_msg__rosidl_typesupport_cExport-noconfig.cmake
+[2.457s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/window_msg/cmake/window_msg__rosidl_typesupport_introspection_cppExport.cmake
+[2.457s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/window_msg/cmake/window_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.457s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/window_msg/cmake/window_msg__rosidl_typesupport_cppExport.cmake
+[2.458s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/window_msg/cmake/window_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[2.458s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/window_msg/cmake/export_window_msg__rosidl_generator_pyExport.cmake
+[2.458s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/window_msg/cmake/export_window_msg__rosidl_generator_pyExport-noconfig.cmake
+[2.458s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/window_msg/cmake/rosidl_cmake-extras.cmake
+[2.458s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/window_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.458s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/window_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.458s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/window_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[2.458s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/window_msg/cmake/ament_cmake_export_targets-extras.cmake
+[2.459s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/window_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.459s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/window_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.459s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/window_msg/cmake/window_msgConfig.cmake
+[2.459s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/window_msg/cmake/window_msgConfig-version.cmake
+[2.459s] -- Installing: /home/santi/imav_ws/src/window_msg/install/window_msg/share/window_msg/package.xml
+[2.462s] Invoked command in '/home/santi/imav_ws/src/window_msg/build/window_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/santi/imav_ws/install/imav24:/opt/ros/humble /usr/bin/cmake --install /home/santi/imav_ws/src/window_msg/build/window_msg
